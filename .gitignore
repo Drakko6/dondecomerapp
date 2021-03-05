@@ -1,0 +1,9 @@
+node_modules
+*.log
+.nvm
+/bots/node_modules/
+package-lock.json
+./android/app/build/outputs/apk/*/*.apk
+./android/app/build/outputs/bundle/*/*.aab
+./android/app/build/outputs/*/*.zip
+android
