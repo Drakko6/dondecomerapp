@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "692902621862",
+    "firebase_url": "https://restaurantdirectory-f150c.firebaseio.com",
+    "project_id": "restaurantdirectory-f150c",
+    "storage_bucket": "restaurantdirectory-f150c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692902621862:android:435c35e9b51398ad613a67",
+        "android_client_info": {
+          "package_name": "com.restar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692902621862-ut6apuebvj26t3npq4et5a96370lp58p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3mSd3viGK0MiUj7Rv4jNW-eBcaXkUrME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692902621862-ut6apuebvj26t3npq4et5a96370lp58p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
