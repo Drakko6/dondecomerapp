@@ -568,7 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaimerodela.dondecomer;
 				PRODUCT_NAME = "Donde Comer";
-				PROVISIONING_PROFILE_SPECIFIER = "Donde Comer AdHoc";
+				PROVISIONING_PROFILE_SPECIFIER = "Donde Comer iOs";
 				SWIFT_OBJC_BRIDGING_HEADER = "listar-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

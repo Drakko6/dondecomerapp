@@ -41,7 +41,7 @@ import * as Actions from "@actions";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as API from "../../config/api";
-import { TouchableNativeFeedback } from "react-native";
+import { TouchableNativeFeedback, TouchableHighlight, Platform } from "react-native";
 
 import RNLocation from "react-native-location";
 
@@ -174,7 +174,7 @@ class Home extends Component {
                 });
 
                 //  Ordenamos por distancia ascendentemente
-                nearestsOrdered = nearest.sort(function(a, b) {
+                nearestsOrdered = nearest.sort(function (a, b) {
                   return a.distance - b.distance;
                 });
 
@@ -209,7 +209,7 @@ class Home extends Component {
         <Tag
           gray
           key={item.id}
-          onPress={() => {}}
+          onPress={() => { }}
           style={{
             backgroundColor: BaseColor.fieldColor,
             marginTop: 5,
@@ -245,22 +245,72 @@ class Home extends Component {
       notification,
     } = this.state;
 
-    const swiperItems = this.state.banner.map((item) => {
-      return (
-        <TouchableNativeFeedback
-          onPress={() => {
-            Linking.openURL(item.url);
-          }}
-          style={{ flex: 1 }}
-        >
-          <Image
-            key={item.id}
-            source={{ uri: API.URL + item.image }}
+    /*   const swiperItems = this.state.banner.map((item) => {
+        return (
+          <TouchableNativeFeedback
+            onPress={() => {
+              Linking.openURL(item.url);
+            }}
             style={{ flex: 1 }}
-          />
-        </TouchableNativeFeedback>
-      );
+          >
+            <Image
+              key={item.id}
+              source={{ uri: API.URL + item.image }}
+              style={{ flex: 1 }}
+            />
+          </TouchableNativeFeedback>
+        );
+      }); */
+
+
+
+    const swiperItems = this.state.banner.map((item) => {
+      if (Platform.OS === "android") {
+        return (
+          <TouchableNativeFeedback
+            onPress={() => {
+              Linking.openURL(item.url);
+            }}
+            style={{ flex: 1 }}
+          >
+            <Image
+              key={item.id}
+              source={{ uri: API.URL + item.image }}
+              style={{ flex: 1 }}
+            />
+          </TouchableNativeFeedback>
+        );
+      } else {
+        return (
+          <TouchableHighlight
+            onPress={() => {
+              Linking.openURL(item.url);
+            }}
+            style={{ flex: 1 }}
+          >
+            <Image
+              key={item.id}
+              source={{ uri: API.URL + item.image }}
+              style={{ flex: 1 }}
+            />
+          </TouchableHighlight>
+        );
+      }
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     const heightImageBanner = Utils.scaleWithPixel(225);
     const marginTopBanner = heightImageBanner - heightHeader + 10;
     this.props.navigation.addListener("didFocus", (payload) => {
@@ -496,8 +546,8 @@ class Home extends Component {
             </SafeAreaView>
           </View>
         ) : (
-          <Charging />
-        )}
+            <Charging />
+          )}
       </>
     );
   }

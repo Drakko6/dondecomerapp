@@ -6,6 +6,8 @@ import {
   Animated,
   TouchableOpacity,
   TouchableNativeFeedback,
+  TouchableHighlight,
+  Platform,
   Linking,
   Alert,
   AsyncStorage,
@@ -143,7 +145,7 @@ class PlaceDetail extends Component {
           }
         });
       })
-      .then((res) => {});
+      .then((res) => { });
   }
 
   clickFavorite(like) {
@@ -215,14 +217,14 @@ class PlaceDetail extends Component {
           apiKey: "dEIsx5Dprcd2gW1XcmSjf2_HcZF5lSAvxITwIUeSsFc",
         },
       })
-      .then(function(s) {
+      .then(function (s) {
         //console.log(JSON.parse(s.request._response).Response.View[0].Result[0].Location.DisplayPosition);
         lat = JSON.parse(s.request._response).Response.View[0].Result[0]
           .Location.DisplayPosition.Latitude;
         lng = JSON.parse(s.request._response).Response.View[0].Result[0]
           .Location.DisplayPosition.Longitude;
       })
-      .catch(function(e) {
+      .catch(function (e) {
         console.error(e);
       });
     var scheme = Platform.OS == "ios" ? "maps:" : "geo:";
@@ -297,7 +299,49 @@ class PlaceDetail extends Component {
       slideshow,
       region,
     } = this.state;
+
+
+
+
+
+
+
     const swiperItems = this.state.slideshow.map((item) => {
+      if (Platform.OS === "android") {
+        return (
+          <TouchableNativeFeedback
+            style={{ flex: 1 }}
+          >
+            <Image
+              key={item.id}
+              source={{ uri: API.URL + item.image }}
+              style={{ flex: 1 }}
+            />
+          </TouchableNativeFeedback>
+        );
+      } else {
+        return (
+          <TouchableHighlight
+
+            style={{ flex: 1 }}
+          >
+            <Image
+              key={item.id}
+              source={{ uri: API.URL + item.image }}
+              style={{ flex: 1 }}
+            />
+          </TouchableHighlight>
+        );
+      }
+    });
+
+
+
+
+
+
+
+    /* const swiperItems = this.state.slideshow.map((item) => {
       return (
         <TouchableNativeFeedback
           onPress={() => {
@@ -312,7 +356,19 @@ class PlaceDetail extends Component {
           />
         </TouchableNativeFeedback>
       );
-    });
+    }); */
+
+
+
+
+
+
+
+
+
+
+
+
     //console.log(list)
     const heightImageBanner = Utils.scaleWithPixel(250, 1);
     return (
@@ -374,9 +430,9 @@ class PlaceDetail extends Component {
             onPressLeft={() => {
               navigation.goBack();
             }}
-            // onPressRight={() => {
-            //   navigation.navigate("PreviewImage");
-            // }}
+          // onPressRight={() => {
+          //   navigation.navigate("PreviewImage");
+          // }}
           />
 
           <ScrollView
@@ -586,7 +642,7 @@ class PlaceDetail extends Component {
                   provider={PROVIDER_GOOGLE}
                   style={styles.map}
                   region={region}
-                  onRegionChange={() => {}}
+                  onRegionChange={() => { }}
                 >
                   <Marker
                     coordinate={{

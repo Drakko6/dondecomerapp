@@ -8,12 +8,14 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "postinstall": "npx jetify"
+    "postinstall": "npx jetify",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.7.1",
     "@react-native-community/datetimepicker": "^2.2.1",
     "@react-native-community/masked-view": "^0.1.6",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
     "@react-native-community/viewpager": "^3.3.0",
     "@react-native-firebase/app": "^6.3.4",
     "@react-native-firebase/messaging": "^6.3.4",
