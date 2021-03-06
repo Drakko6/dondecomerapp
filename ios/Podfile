@@ -42,7 +42,7 @@ target 'listar' do
   use_native_modules!
 
   pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
-  pod 'react-native-location', :path => '../node_modules/react-native-location/react-native-location.podspec'
+ 
 
 
 
