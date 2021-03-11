@@ -14,18 +14,24 @@ import java.util.ArrayList;
 import com.restar.BuildConfig;
 import com.restar.R;
 
+// @hkpuits/react-native-beacons-manager
+import com.mackentoch.beaconsandroid.BeaconsAndroidPackage;
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/datetimepicker
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/toolbar-android
+import com.reactnativecommunity.toolbarandroid.ReactToolbarPackage;
 // @react-native-community/viewpager
 import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/messaging
 import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
+// react-native-bluetooth-status
+import com.solinor.bluetoothstatus.RNBluetoothManagerPackage;
 // react-native-fast-image
 import com.dylanvann.fastimage.FastImageViewPackage;
 // react-native-fbsdk
@@ -99,12 +105,15 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new BeaconsAndroidPackage(),
       new AsyncStoragePackage(),
       new RNDateTimePickerPackage(),
       new RNCMaskedViewPackage(),
+      new ReactToolbarPackage(),
       new RNCViewPagerPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseMessagingPackage(),
+      new RNBluetoothManagerPackage(),
       new FastImageViewPackage(),
       new FBSDKPackage(),
       new RNGestureHandlerPackage(),

@@ -8,23 +8,26 @@ INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\And
 	android:name
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml
 category#com.restar
-INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:58:17-61
+INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:62:17-61
 	android:name
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
-INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
-INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
-INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
-MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
+INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
+INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
+INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
+MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
 MERGED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-52:12
 MERGED from [:react-native-firebase_app] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\0da903d40b1eae9e7e455e1ff3ee7914\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-push-notification] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-29:12
 MERGED from [:react-native-community_async-storage] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_datetimepicker] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-community_masked-view] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_toolbar-android] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\toolbar-android\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-community_viewpager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\viewpager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:react-native-fast-image] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-fast-image\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-fbsdk] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:1-28:12
 MERGED from [:react-native-gesture-handler] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -93,18 +96,18 @@ MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\drago\.gradle\caches\tra
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\eeec1cc659fbd96d87abb8af3fb577e7\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8ac559f5106c2b3133325dc6a2c598b6\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6c225da5d0a3cb6e84175d36d7bac791\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\68640362747603239ed8fb9ab2ba9322\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a6cc701c05dfea4972bf4e8c39a878d9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\17f552306afec5adb05db6a29412bb90\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\53fad97fd705b05757721dc506a7bfcf\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\94b2150a4d317ab08a4d575642b6805f\activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\ca54723562c41ca17dad5b2fa9dc61ad\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\940161ea23cd4259db2e079b2160134e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\4fc92afeedd647593157c4f801f294b6\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\48bbb6ba66d5c538a63cf5a82e89d246\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d2f310e7e70cc70b28ebc2035dc5ecac\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\49fff7b36716914bb8aa86afcf9b8f2f\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\3d3b921eb7bba142f6efe13d9f63adef\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -122,6 +125,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\drago\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c1d94de41afbca388b4567e627dbcf2\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\7e22adbd3246aba285fc3bf9f0ee1ef6\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:2:1-52:12
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:2:1-58:12
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1f3ded98e95ba2d131c0d223434d9397\jetified-android-maps-utils-0.5\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\c31479a24cd5e570f40112fa0558e3f9\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\45598bffdd115f2f98320b3f1e74f5ea\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
@@ -135,13 +139,13 @@ INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\An
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-93:12
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:1-101:12
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -149,6 +153,8 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-67
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-67
 MERGED from [:react-native-maps] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
@@ -201,26 +207,38 @@ ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\Androi
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:11:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:17:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:17:5-81
 	android:name
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:13:5-80
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-81
 MERGED from [:react-native-maps] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
 MERGED from [:react-native-maps] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
 MERGED from [:react-native-location] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
 MERGED from [:react-native-location] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:18:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:18:5-81
 	android:name
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:14:5-78
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-79
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-79
 	android:name
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:14:22-76
 application
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:18:5-91:19
-MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:18:5-91:19
-MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:18:5-91:19
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:5-99:19
+MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:5-99:19
+MERGED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:5-99:19
 MERGED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-50:19
 MERGED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-50:19
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-27:19
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-27:19
 MERGED from [:react-native-community_datetimepicker] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
 MERGED from [:react-native-community_datetimepicker] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
 MERGED from [:react-native-splash-screen] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-splash-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
@@ -295,6 +313,8 @@ MERGED from [androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\49fff7b36716914bb8aa86afcf9b8f2f\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\4d772c7ca1c9698c6e7c6bda899b5a30\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\4d772c7ca1c9698c6e7c6bda899b5a30\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:20:5-56:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1f3ded98e95ba2d131c0d223434d9397\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1f3ded98e95ba2d131c0d223434d9397\jetified-android-maps-utils-0.5\AndroidManifest.xml:7:5-11:19
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\45598bffdd115f2f98320b3f1e74f5ea\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
@@ -304,135 +324,141 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\drago\.gr
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\491ebe6e1f1600ae9ec804d7d2d6636d\facebook-login-7.1.0\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:21:7-39
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:21:7-39
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:7-39
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:7-39
 	android:launchMode
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:20:7-38
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:20:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:24:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:24:7-38
 	tools:ignore
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml:7:75-114
 	tools:targetApi
 		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:7-41
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:7-41
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:26:7-41
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:26:7-41
 	android:allowBackup
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:23:7-34
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:23:7-34
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:27:7-34
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:27:7-34
 	android:theme
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:7-38
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:29:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:29:7-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:24:7-42
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:28:7-42
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:19:7-38
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:19:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:23:7-38
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:23:7-38
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:26:7-28:64
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:30:7-32:64
 	android:value
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:28:7-62
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:32:7-62
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:27:7-52
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:31:7-52
 activity#com.restar.MainActivity
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:29:7-38:18
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:33:7-42:18
 	android:label
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:35:9-41
 	android:windowSoftInputMode
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:33:9-51
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:37:9-51
 	android:configChanges
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:32:9-79
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:36:9-79
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:30:9-37
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:34:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:34:9-37:25
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:38:9-41:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:35:13-65
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:13-65
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:35:21-62
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:36:13-73
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:36:23-70
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:40:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:7-84
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:7-84
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:17-81
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:17-81
 meta-data#com.dieam.reactnativepushnotification.notification_channel_name
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:42:7-43:65
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:7-47:65
 	android:value
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:17-63
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:47:17-63
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:42:19-97
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:19-97
 meta-data#com.dieam.reactnativepushnotification.notification_channel_description
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:44:9-45:76
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:48:9-49:76
 	android:value
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:45:21-74
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:21-74
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:44:21-106
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:48:21-106
 meta-data#com.dieam.reactnativepushnotification.notification_color
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:47:9-48:62
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:9-52:62
 	android:resource
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:48:21-60
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:52:21-60
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:47:21-92
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:21-92
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:9-50:52
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:53:9-54:52
 	android:value
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:50:11-50
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:54:11-50
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:20-65
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:53:20-65
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:52:9-60:20
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:56:9-64:20
 	android:exported
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:54:13-36
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:58:13-36
 	android:permission
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:55:13-73
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:59:13-73
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:53:13-66
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:57:13-66
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.restar
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:56:13-59:29
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:60:13-63:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:57:17-81
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:17-81
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:57:25-78
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:25-78
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:62:1-102
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:66:1-102
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:62:11-99
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:66:11-99
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:63:9-67:20
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:67:9-71:20
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:63:19-115
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:67:19-115
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:13-66:29
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:68:13-70:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:65:17-79
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:17-79
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:65:25-76
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:25-76
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:9-118
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:73:9-118
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:18-116
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:73:18-116
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:9-78:19
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:76:9-82:19
 	android:exported
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:74:13-37
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:73:13-110
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:77:13-110
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:75:13-77:29
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:79:13-81:29
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:81:9-87:19
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:85:9-91:19
 	android:exported
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:83:13-37
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:87:13-37
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:82:13-107
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:86:13-107
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:84:13-86:29
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:88:13-90:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:85:17-78
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:17-78
 	android:name
-		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:85:25-75
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:25-75
+service#com.kontakt.sdk.android.ble.service.ProximityService
+ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:1-104
+	android:exported
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:78-102
+	android:name
+		ADDED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:10-77
 uses-sdk
 INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml
@@ -445,14 +471,20 @@ MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\drago\.gradle\caches\tra
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\0da903d40b1eae9e7e455e1ff3ee7914\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [:react-native-push-notification] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-push-notification] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_async-storage] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_async-storage] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_datetimepicker] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_datetimepicker] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\datetimepicker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_masked-view] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\toolbar-android\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\toolbar-android\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_viewpager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\viewpager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_viewpager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-community\viewpager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fast-image] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-fast-image\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fast-image] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-fast-image\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fbsdk] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-fbsdk\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:41
@@ -589,10 +621,12 @@ MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\drago\.gra
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8ac559f5106c2b3133325dc6a2c598b6\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6c225da5d0a3cb6e84175d36d7bac791\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6c225da5d0a3cb6e84175d36d7bac791\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\68640362747603239ed8fb9ab2ba9322\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\68640362747603239ed8fb9ab2ba9322\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\65d782d35237e1aa0010c4ea2a5f0b52\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a6cc701c05dfea4972bf4e8c39a878d9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a6cc701c05dfea4972bf4e8c39a878d9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\17f552306afec5adb05db6a29412bb90\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -601,18 +635,16 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\drago\.gradle\caches\transfo
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\53fad97fd705b05757721dc506a7bfcf\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\94b2150a4d317ab08a4d575642b6805f\activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\94b2150a4d317ab08a4d575642b6805f\activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\ca54723562c41ca17dad5b2fa9dc61ad\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\ca54723562c41ca17dad5b2fa9dc61ad\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\69b55564ce39a22052468e457a6520ef\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\940161ea23cd4259db2e079b2160134e\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\940161ea23cd4259db2e079b2160134e\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\4fc92afeedd647593157c4f801f294b6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\4fc92afeedd647593157c4f801f294b6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\48bbb6ba66d5c538a63cf5a82e89d246\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\48bbb6ba66d5c538a63cf5a82e89d246\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a38a87df7e0b53a5399ce930be41c427\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d2f310e7e70cc70b28ebc2035dc5ecac\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d2f310e7e70cc70b28ebc2035dc5ecac\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\49fff7b36716914bb8aa86afcf9b8f2f\core-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -647,6 +679,8 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\drago\.gradle\cache
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\7e22adbd3246aba285fc3bf9f0ee1ef6\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1f3ded98e95ba2d131c0d223434d9397\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
 MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1f3ded98e95ba2d131c0d223434d9397\jetified-android-maps-utils-0.5\AndroidManifest.xml:5:5-43
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\c31479a24cd5e570f40112fa0558e3f9\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
@@ -663,6 +697,8 @@ INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\An
 		INJECTED from C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-79
+MERGED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:22:5-79
@@ -701,6 +737,34 @@ ADDED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\don
 		ADDED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-33
 	android:name
 		ADDED from [:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-74
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-74
+MERGED from [:react-native-bluetooth-status] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-bluetooth-status\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-71
+service#com.mackentoch.beaconsandroid.BeaconsAndroidTransitionService
+ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:18-94
+receiver#com.mackentoch.beaconsandroid.BeaconsAndroidBootReceiver
+ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:20
+	android:name
+		ADDED from [:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-90
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
 ADDED from [:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
@@ -1047,3 +1111,67 @@ uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
 ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
 	android:name
 		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:19-87
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:29:9-34:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:31:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:32:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:30:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:36:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:39:9-48:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:42:13-44:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:53:17-37

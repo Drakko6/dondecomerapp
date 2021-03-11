@@ -48,10 +48,28 @@ class PlaceDetail extends Component {
     const { state } = this.props.navigation;
     let data = state.params;
     // Temp data define
+
+    const fecha = new Date().toISOString();
+
+    // const dias = [
+    //   "Domingo",
+    //   "Lunes",
+    //   "Martes",
+    //   "Miércoles",
+    //   "Jueves",
+    //   "Viernes",
+    //   "Sábado",
+    //   "Domingo",
+    // ];
+    const numeroDia = new Date(fecha).getDay() - 1;
+    // const nombreDia = dias[numeroDia];
+
     this.state = {
+      numeroDia,
       slideshow: [],
       restaurant_id: data.id,
       workHours: [],
+      openHours: [],
       categories: [],
       collapseHour: true,
       index: 0,
@@ -135,6 +153,7 @@ class PlaceDetail extends Component {
               list: response.data.restaurants,
               categories: response.data.restaurants.categories,
               workHours: response.data.restaurants.hours,
+              openHours: response.data.restaurants.open_hours,
               facilities: response.data.restaurants.facilities,
             });
           } else {
@@ -145,7 +164,7 @@ class PlaceDetail extends Component {
           }
         });
       })
-      .then((res) => { });
+      .then((res) => {});
   }
 
   clickFavorite(like) {
@@ -217,14 +236,14 @@ class PlaceDetail extends Component {
           apiKey: "dEIsx5Dprcd2gW1XcmSjf2_HcZF5lSAvxITwIUeSsFc",
         },
       })
-      .then(function (s) {
+      .then(function(s) {
         //console.log(JSON.parse(s.request._response).Response.View[0].Result[0].Location.DisplayPosition);
         lat = JSON.parse(s.request._response).Response.View[0].Result[0]
           .Location.DisplayPosition.Latitude;
         lng = JSON.parse(s.request._response).Response.View[0].Result[0]
           .Location.DisplayPosition.Longitude;
       })
-      .catch(function (e) {
+      .catch(function(e) {
         console.error(e);
       });
     var scheme = Platform.OS == "ios" ? "maps:" : "geo:";
@@ -291,6 +310,8 @@ class PlaceDetail extends Component {
       heightHeader,
       information,
       workHours,
+      openHours,
+      numeroDia,
       categories,
       collapseHour,
       list,
@@ -300,18 +321,10 @@ class PlaceDetail extends Component {
       region,
     } = this.state;
 
-
-
-
-
-
-
     const swiperItems = this.state.slideshow.map((item) => {
       if (Platform.OS === "android") {
         return (
-          <TouchableNativeFeedback
-            style={{ flex: 1 }}
-          >
+          <TouchableNativeFeedback style={{ flex: 1 }}>
             <Image
               key={item.id}
               source={{ uri: API.URL + item.image }}
@@ -321,10 +334,7 @@ class PlaceDetail extends Component {
         );
       } else {
         return (
-          <TouchableHighlight
-
-            style={{ flex: 1 }}
-          >
+          <TouchableHighlight style={{ flex: 1 }}>
             <Image
               key={item.id}
               source={{ uri: API.URL + item.image }}
@@ -334,12 +344,6 @@ class PlaceDetail extends Component {
         );
       }
     });
-
-
-
-
-
-
 
     /* const swiperItems = this.state.slideshow.map((item) => {
       return (
@@ -358,18 +362,6 @@ class PlaceDetail extends Component {
       );
     }); */
 
-
-
-
-
-
-
-
-
-
-
-
-    //console.log(list)
     const heightImageBanner = Utils.scaleWithPixel(250, 1);
     return (
       <View style={{ flex: 1, backgroundColor: "white" }}>
@@ -430,9 +422,9 @@ class PlaceDetail extends Component {
             onPressLeft={() => {
               navigation.goBack();
             }}
-          // onPressRight={() => {
-          //   navigation.navigate("PreviewImage");
-          // }}
+            // onPressRight={() => {
+            //   navigation.navigate("PreviewImage");
+            // }}
           />
 
           <ScrollView
@@ -513,7 +505,8 @@ class PlaceDetail extends Component {
                     </Text>
                   </TouchableOpacity>
                 </View>
-                {/* <Tag status>Featured</Tag> */}
+
+                {list.destacado === "1" ? <Tag status>Destacado</Tag> : null}
               </View>
               {information.map((item) => {
                 return (
@@ -557,13 +550,21 @@ class PlaceDetail extends Component {
                       Horario
                     </Text>
                     <Text footnote semibold style={{ marginTop: 5 }}>
-                      {workHours.length > 0
-                        ? workHours[0].start_time + "-" + workHours[0].end_time
+                      {openHours.length > 0
+                        ? openHours[numeroDia].day +
+                          " : " +
+                          openHours[numeroDia].open_hour +
+                          " - " +
+                          openHours[numeroDia].close_hour
                         : ""}
+
+                      {/* {workHours.length > 0
+                        ? workHours[0].start_time + "-" + workHours[0].end_time
+                        : ""} */}
                     </Text>
                   </View>
                   <Icon
-                    name={collapseHour ? "angle-up" : "angle-down"}
+                    name={collapseHour ? "angle-down" : "angle-up"}
                     size={24}
                     color={BaseColor.grayColor}
                   />
@@ -578,14 +579,18 @@ class PlaceDetail extends Component {
                   overflow: "hidden",
                 }}
               >
-                {workHours.map((item) => {
+                {openHours.map((item) => {
                   return (
                     <View style={styles.lineWorkHours} key={item.id}>
-                      <Text body2 grayColor>
+                      {/* <Text body2 grayColor>
                         {item.start_time}
-                      </Text>
+                      </Text> */}
                       <Text body2 accentColor semibold>
-                        {item.end_time}
+                        {item.day +
+                          " : " +
+                          item.open_hour +
+                          " - " +
+                          item.close_hour}
                       </Text>
                     </View>
                   );
@@ -642,7 +647,7 @@ class PlaceDetail extends Component {
                   provider={PROVIDER_GOOGLE}
                   style={styles.map}
                   region={region}
-                  onRegionChange={() => { }}
+                  onRegionChange={() => {}}
                 >
                   <Marker
                     coordinate={{

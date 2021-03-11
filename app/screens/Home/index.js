@@ -41,12 +41,19 @@ import * as Actions from "@actions";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as API from "../../config/api";
-import { TouchableNativeFeedback, TouchableHighlight, Platform } from "react-native";
+import {
+  TouchableNativeFeedback,
+  TouchableHighlight,
+  Platform,
+} from "react-native";
 
 import RNLocation from "react-native-location";
 
+import PushNotification from "react-native-push-notification";
+
 RNLocation.configure({
   distanceFilter: 100,
+  allowsBackgroundLocationUpdates: true,
 });
 
 // RNLocation.configure({
@@ -79,8 +86,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    this.callRestaurants(); // este método podria hacer que se recargue (al final o despues de pedir ubicacion)
-    //quiza solo pedir permiso de ubicacion primero
+    this.callRestaurants();
     this.forceUpdate();
     AppState.addEventListener("change", this._handleAppStateChange);
   }
@@ -174,7 +180,7 @@ class Home extends Component {
                 });
 
                 //  Ordenamos por distancia ascendentemente
-                nearestsOrdered = nearest.sort(function (a, b) {
+                nearestsOrdered = nearest.sort(function(a, b) {
                   return a.distance - b.distance;
                 });
 
@@ -209,7 +215,7 @@ class Home extends Component {
         <Tag
           gray
           key={item.id}
-          onPress={() => { }}
+          onPress={() => {}}
           style={{
             backgroundColor: BaseColor.fieldColor,
             marginTop: 5,
@@ -262,8 +268,6 @@ class Home extends Component {
         );
       }); */
 
-
-
     const swiperItems = this.state.banner.map((item) => {
       if (Platform.OS === "android") {
         return (
@@ -297,19 +301,6 @@ class Home extends Component {
         );
       }
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     const heightImageBanner = Utils.scaleWithPixel(225);
     const marginTopBanner = heightImageBanner - heightHeader + 10;
@@ -535,9 +526,9 @@ class Home extends Component {
                         subtitle={item.phone}
                         rate={item.rate}
                         style={{ marginBottom: 20 }}
-                        onPress={() =>
-                          navigation.navigate("PlaceDetail", { id: item.id })
-                        }
+                        onPress={() => {
+                          navigation.navigate("PlaceDetail", { id: item.id });
+                        }}
                       />
                     )}
                   />
@@ -546,8 +537,8 @@ class Home extends Component {
             </SafeAreaView>
           </View>
         ) : (
-            <Charging />
-          )}
+          <Charging />
+        )}
       </>
     );
   }
