@@ -10,6 +10,8 @@ import i18n from "i18n-js";
 import * as RNLocalize from "react-native-localize";
 import { I18nManager } from "react-native";
 import PushNotification from "react-native-push-notification";
+import RNLocation from "react-native-location";
+
 // import NotifService from "./components/NotifService";
 import {
   Platform,
@@ -18,9 +20,99 @@ import {
   PermissionsAndroid,
 } from "react-native";
 
+// import Beacons from "@nois/react-native-beacons-manager";
 import Beacons from "@hkpuits/react-native-beacons-manager";
+
 import { BluetoothStatus } from "react-native-bluetooth-status";
 import firebase from "./config/firebase";
+
+const region = {
+  identifier: "beaconDondeComer",
+  uuid: "d77657c4-52a7-426f-b9d0-d71e10798c8a",
+};
+
+const detectarBeacons = async () => {
+  try {
+    await Beacons.init();
+  } catch (error) {}
+  Beacons.setBackgroundBetweenScanPeriod(0);
+  Beacons.setBackgroundScanPeriod(2000);
+  Beacons.setForegroundScanPeriod(3600000);
+  Beacons.detectIBeacons();
+
+  //Se va a cambiar la lógica, una vez recabadas las campañas, sacar de ahí los beacons
+  //Se va a crear un Monitoreo para cada region y se lanzará la notificación con lo que traiga
+  //(Se puede hacer un map)
+
+  try {
+    Beacons.requestAlwaysAuthorization();
+
+    Beacons.startUpdatingLocation();
+  } catch (error) {}
+
+  if (Platform.OS === "android") {
+    // for android, startMonitoring after beaconService is connected
+    // Beacons.BeaconsEventEmitter.removeAllListeners('beaconServiceConnected');
+    Beacons.BeaconsEventEmitter.addListener(
+      "beaconServiceConnected",
+      async () => {
+        // add codes to monitor the beacons
+        // ...e.g.
+        Beacons.startMonitoringForRegion(region)
+          .then(() =>
+            console.log(
+              `Beacon ${region.identifier} monitoring started succesfully`
+            )
+          )
+          .catch((error) =>
+            console.log(
+              `Beacon ${
+                region.identifier
+              }  monitoring not started, error: ${error}`
+            )
+          );
+      }
+    );
+  } else {
+    // add codes to monitor the beacons
+    // ...e.g.
+    Beacons.startMonitoringForRegion(region)
+      .then(() =>
+        console.log(
+          `Beacon ${region.identifier} monitoring started succesfully`
+        )
+      )
+      .catch((error) =>
+        console.log(
+          `Beacon ${region.identifier}  monitoring not started, error: ${error}`
+        )
+      );
+  }
+
+  Beacons.startRangingBeaconsInRegion("All")
+    .then(() => console.log("Beacons ranging started succesfully"))
+    .catch((error) =>
+      console.log(`Beacons ranging not started, error: ${error}`)
+    );
+
+  Beacons.BeaconsEventEmitter.addListener("beaconsDidRange", (data) => {
+    console.log("beaconsDidRange: ", data.beacons);
+  });
+
+  Beacons.BeaconsEventEmitter.addListener("regionDidEnter", (data) => {
+    console.log("region did enter", data);
+
+    PushNotification.localNotification({
+      channelId: "channel-id",
+      title: "Hola", // (optional)
+      message: "Esta es una notificación de donde comer", // (required)
+    });
+  });
+
+  Beacons.BeaconsEventEmitter.addListener("regionDidExit", (data) => {
+    console.log("region did exit");
+  });
+};
 
 PushNotification.configure({
   onRegister: function(token) {
@@ -79,6 +171,25 @@ const anonymousLog = () => {
 };
 
 const isAndroid = Platform.OS === "android";
+
+const createAlertPermission = async () =>
+  Alert.alert(
+    "Permisos de localización necesarios",
+    "Necesitamos el permiso de ubicación siempre para poder detectar los beacons de restaurantes",
+    [
+      {
+        text: "Okay",
+        onPress: () =>
+          RNLocation.requestPermission({
+            ios: "always",
+            android: {
+              detail: "fine",
+            },
+          }),
+      },
+    ],
+    { cancelable: false }
+  );
 
 const createButtonAlert = () =>
   Alert.alert(
@@ -141,41 +252,25 @@ export default class index extends Component {
 
     this.state = {
       campanas: [],
+      beacons: [],
     };
   }
 
-  detectarBeacons = async () => {
-    // Tells the library to detect iBeacons
-    Beacons.init(); // to set the NotificationChannel, and enable background scanning
-    Beacons.detectIBeacons();
-    // Start detecting all iBeacons in the nearby
-    try {
-      await Beacons.startRangingBeaconsInRegion("REGION1");
-      console.log(`Beacons ranging started succesfully!`);
-    } catch (err) {
-      console.log(`Beacons ranging not started, error: ${error}`);
-    }
-    // Print a log of the detected iBeacons (1 per second)
-    DeviceEventEmitter.addListener("beaconsDidRange", (data) => {
-      //TO DO: AQUI SE LANZARÍA LA NOTIFICACION (cuando data.beacons.length sea mayor que 0)
-      if (data.beacons.length > 0) {
-        //Comparar los beacons detectados con lo que tenemos en campañaas
-        //Si el detectado coincide con una campaña activa, se lanzará la notificación y se abrirá link a página de rest
-        //o se abrirá la imagen del menú en la app (se deberá guardar el menú en menús)
-        //Después de lanzar notificación, guardar en campaña (subir numero) de visita en firebase
-        /* SE DESACTIVÓ PARA NO LANZAR TANTAS
-        PushNotification.localNotification({
-          channelId: "channel-id",
-          title: "Hola", // (optional)
-          message: "Esta es una notificación de donde comer", // (required)
-        });
-        */
-      }
+  checkPermissions = async () => {
+    const permiso = await RNLocation.checkPermission({
+      ios: "always", // or 'always'
+      android: {
+        detail: "fine", // or 'fine'
+      },
     });
+
+    console.log(permiso);
+    if (!permiso) {
+      createAlertPermission();
+    }
   };
 
   recabarCampanas = async () => {
-    //REPARAR ESTO PARA QUE SI AGARRE LAS CAMPAÑAS (UNA VEZ)
     firebase.db
       .collection("campanas")
       .get()
@@ -192,11 +287,11 @@ export default class index extends Component {
   };
 
   async componentDidMount() {
+    this.checkPermissions();
     getBluetoothState();
     anonymousLog();
     await this.recabarCampanas();
-    this.detectarBeacons();
-    // this.checkPermission();
+    await detectarBeacons();
 
     StatusBar.setBackgroundColor(BaseColor.primaryColor, true);
     RNLocalize.addEventListener("change", this.handleLocalizationChange);
@@ -238,10 +333,6 @@ export default class index extends Component {
   }
 
   onNotif(notif) {
-    //console.log(notif);
-    //Alert.alert(notif.title, notif.message);
-    //this.notif.localNotif();
-
     if (notif.userInteraction) {
       Linking.canOpenURL(notif.url).then((supported) => {
         if (supported) {

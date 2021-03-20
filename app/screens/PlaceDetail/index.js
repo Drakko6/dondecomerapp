@@ -246,7 +246,9 @@ class PlaceDetail extends Component {
       .catch(function(e) {
         console.error(e);
       });
-    var scheme = Platform.OS == "ios" ? "maps:" : "geo:";
+    // var scheme = Platform.OS == "ios" ? "maps:" : "geo:";
+    var scheme = "https://maps.google.com/?ll=";
+
     Alert.alert(
       "Donde Comer",
       "Quieres ir a " + item.title + " ?",
@@ -271,9 +273,7 @@ class PlaceDetail extends Component {
                 break;
               case "map":
                 //console.log(scheme + lat + ',' + lng);
-                Linking.openURL(
-                  scheme + lat + "," + lng + "?='Hola mundo'&z=16"
-                );
+                Linking.openURL(scheme + lat + "," + lng + "&z=16");
                 break;
             }
           },
@@ -704,13 +704,13 @@ class PlaceDetail extends Component {
               style={{
                 paddingHorizontal: 20,
                 paddingTop: 15,
-                paddingBottom: 5,
+                paddingBottom: 10,
               }}
             >
               Redes Sociales
             </Text>
 
-            <View style={styles.wrapContent}>
+            <View style={styles.wrapContentSocial}>
               {list.facebook ? (
                 <Icon
                   name="facebook"
@@ -744,18 +744,6 @@ class PlaceDetail extends Component {
                 />
               ) : null}
             </View>
-
-            <Text
-              title3
-              semibold
-              style={{
-                paddingHorizontal: 20,
-                paddingTop: 15,
-                paddingBottom: 5,
-              }}
-            >
-              Redes Sociales
-            </Text>
 
             {/* <Text
               title3

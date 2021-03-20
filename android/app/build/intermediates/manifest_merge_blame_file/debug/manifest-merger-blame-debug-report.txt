@@ -35,635 +35,650 @@
 23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 23-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:14:5-78
 23-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:14:22-76
-24    <uses-permission android:name="android.permission.VIBRATE" />
-24-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:11:5-66
-24-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:11:22-63
-25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-25-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:12:5-80
-25-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:12:22-78
-26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
-26-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+24    <uses-permission
+24-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:15:5-67
+25        android:name="android.permission.BLUETOOTH"
+25-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:15:22-65
+26        android:required="false" />
+26-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:13:9-33
 27    <uses-permission
-27-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
-28        android:name="android.permission.BLUETOOTH"
-28-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+27-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:16:5-73
+28        android:name="android.permission.BLUETOOTH_ADMIN"
+28-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:16:22-71
 29        android:required="false" />
-29-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:13:9-33
-30    <uses-permission
-30-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-74
-31        android:name="android.permission.BLUETOOTH_ADMIN"
-31-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-71
-32        android:required="false" />
-32-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:16:9-33
-33
-34    <uses-feature
-34-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
-35        android:glEsVersion="0x00020000"
-35-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
-36        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-36-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
-37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-37-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
-37-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
-38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
-38-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
-38-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
-39    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
-40    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
-41    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
-42    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
-43    <!-- for Samsung -->
-44    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
-44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
-45    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
-45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
-46    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
-46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
-47    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
-47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
-48    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
-48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
-49    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
-49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
-50    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
-50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
-51    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
-51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
-52    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
-52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
-53    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
-53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
-54    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
-54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
-55    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
-55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
-56    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
-56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
-57    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
-57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
-58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
-58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
-59    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
-59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
-60
-61    <application
-61-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:22:5-99:19
-62        android:name="com.restar.MainApplication"
-62-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:23:7-38
-63        android:allowBackup="false"
-63-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:27:7-34
-64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-64-->[androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\49fff7b36716914bb8aa86afcf9b8f2f\core-1.1.0\AndroidManifest.xml:24:18-86
-65        android:debuggable="true"
-66        android:icon="@mipmap/ic_launcher"
-66-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:26:7-41
-67        android:label="@string/app_name"
-67-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:7-39
-68        android:launchMode="singleTask"
-68-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:24:7-38
-69        android:supportsRtl="true"
-69-->[com.facebook.android:facebook-login:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\491ebe6e1f1600ae9ec804d7d2d6636d\facebook-login-7.1.0\AndroidManifest.xml:28:18-44
-70        android:theme="@style/AppTheme"
-70-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:29:7-38
-71        android:usesCleartextTraffic="true" >
-71-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:28:7-42
-72        <meta-data
-72-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:30:7-32:64
-73            android:name="com.google.android.geo.API_KEY"
-73-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:31:7-52
-74            android:value="AIzaSyDvaS7W8iRIZTGJ6v5yePMWF4B2sCEVWqg" />
-74-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:32:7-62
-75
-76        <activity
-76-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:33:7-42:18
-77            android:name="com.restar.MainActivity"
-77-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:34:9-37
-78            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-78-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:36:9-79
-79            android:label="@string/app_name"
-79-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:35:9-41
-80            android:windowSoftInputMode="adjustResize" >
-80-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:37:9-51
-81            <intent-filter>
-81-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:38:9-41:25
-82                <action android:name="android.intent.action.MAIN" />
-82-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:13-65
-82-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:21-62
-83
-84                <category android:name="android.intent.category.LAUNCHER" />
-84-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:40:13-73
-84-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:40:23-70
-85            </intent-filter>
-86        </activity>
-87        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-87-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:7-84
-87-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:17-81
-88
-89        <meta-data
-89-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:7-47:65
-90            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-90-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:19-97
-91            android:value="YOUR NOTIFICATION CHANNEL NAME" />
-91-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:47:17-63
-92        <meta-data
-92-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:48:9-49:76
-93            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
-93-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:48:21-106
-94            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
-94-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:21-74
-95        <meta-data
-95-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:9-52:62
-96            android:name="com.dieam.reactnativepushnotification.notification_color"
-96-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:21-92
-97            android:resource="@android:color/white" />
-97-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:52:21-60
-98        <meta-data
-98-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:53:9-54:52
-99            android:name="com.facebook.sdk.ApplicationId"
-99-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:53:20-65
-100            android:value="@string/facebook_app_id" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
-100-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:54:11-50
-101        <receiver
-101-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:56:9-64:20
-102            android:name="com.google.android.gms.gcm.GcmReceiver"
-102-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:57:13-66
-103            android:exported="true"
-103-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:58:13-36
-104            android:permission="com.google.android.c2dm.permission.SEND" >
-104-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:59:13-73
-105            <intent-filter>
-105-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:60:13-63:29
-106                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-106-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:17-81
-106-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:25-78
-107
-108                <category android:name="com.restar" />
-109            </intent-filter>
-110        </receiver> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
-111        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-111-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:66:1-102
-111-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:66:11-99
-112        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
-112-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:67:9-71:20
-112-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:67:19-115
-113            <intent-filter>
-113-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:68:13-70:29
-114                <action android:name="android.intent.action.BOOT_COMPLETED" />
-114-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:17-79
-114-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:25-76
-115            </intent-filter>
-116        </receiver>
-117
-118        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
-118-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:73:9-118
-118-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:73:18-116
-119        <service
-119-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:76:9-82:19
-120            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm"
-120-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:77:13-110
-121            android:exported="false" >
-121-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:78:13-37
-122            <intent-filter>
-122-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:79:13-81:29
-123                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-123-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:17-81
-123-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:25-78
-124            </intent-filter>
-125        </service> <!-- </ Only if you're using GCM or localNotificationSchedule() > -->
-126        <!-- < Else > -->
-127        <service
-127-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:85:9-91:19
-128            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
-128-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:86:13-107
-129            android:exported="false" >
-129-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:87:13-37
-130            <intent-filter>
-130-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:88:13-90:29
-131                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-131-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:17-78
-131-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:25-75
-132            </intent-filter>
-133        </service>
-134        <service
-134-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:1-104
-135            android:name="com.kontakt.sdk.android.ble.service.ProximityService"
-135-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:10-77
-136            android:exported="false" />
-136-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:94:78-102
-137        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
-137-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-111
-137-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-108
-138        <service
-138-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-23:19
-139            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-139-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-95
-140            android:exported="false" >
-140-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
-141            <intent-filter>
-141-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:88:13-90:29
-142                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-142-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:17-78
-142-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:25-75
-143            </intent-filter>
-144        </service>
-145
-146        <meta-data
-146-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-27:36
-147            android:name="firebase_messaging_auto_init_enabled"
-147-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-64
-148            android:value="true" />
-148-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-33
-149
-150        <service android:name="com.mackentoch.beaconsandroid.BeaconsAndroidTransitionService" />
-150-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-97
-150-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:18-94
-151
-152        <receiver android:name="com.mackentoch.beaconsandroid.BeaconsAndroidBootReceiver" >
-152-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:20
-152-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-90
-153            <intent-filter>
-153-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:68:13-70:29
-154                <action android:name="android.intent.action.BOOT_COMPLETED" />
-154-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:17-79
-154-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:25-76
-155            </intent-filter>
-156        </receiver>
-157
-158        <provider
-158-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
-159            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-159-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
-160            android:authorities="com.restar.fileprovider"
-160-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
-161            android:exported="false"
-161-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
-162            android:grantUriPermissions="true" >
-162-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
-163            <meta-data
-163-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
-164                android:name="android.support.FILE_PROVIDER_PATHS"
-164-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
-165                android:resource="@xml/file_provider_paths" />
-165-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
-166        </provider>
-167
-168        <activity
-168-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:30:9-33:66
-169            android:name="com.facebook.FacebookActivity"
-169-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:31:13-57
-170            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-170-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:32:13-96
-171            android:theme="@style/com_facebook_activity_theme" />
-171-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:33:13-63
-172        <activity android:name="com.facebook.CustomTabMainActivity" />
-172-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:34:9-71
-172-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:34:19-68
-173        <activity
-173-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:35:9-49:20
-174            android:name="com.facebook.CustomTabActivity"
-174-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:36:13-58
-175            android:exported="true" >
-175-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:37:13-36
-176            <intent-filter>
-176-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
-177                <action android:name="android.intent.action.VIEW" />
-177-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:40:17-69
-177-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:40:25-66
-178
-179                <category android:name="android.intent.category.DEFAULT" />
-179-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:42:17-76
-179-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:42:27-73
-180                <category android:name="android.intent.category.BROWSABLE" />
-180-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:43:17-78
-180-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:43:27-75
-181
-182                <data
-182-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:45:17-47:50
-183                    android:host="cct.com.restar"
-183-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:46:21-56
-184                    android:scheme="fbconnect" />
-184-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:47:21-47
-185            </intent-filter>
-186        </activity>
-187        <!--
-188             FirebaseMessagingService performs security checks at runtime,
-189             but set to not exported to explicitly avoid allowing another app to call it.
-190        -->
-191        <service
-191-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
-192            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-192-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
-193            android:directBootAware="true"
-193-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
-194            android:exported="false" >
-194-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
-195            <intent-filter android:priority="-500" >
-195-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:88:13-90:29
-196                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-196-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:17-78
-196-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:25-75
-197            </intent-filter>
-198        </service>
-199        <service
-199-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
-200            android:name="com.google.firebase.components.ComponentDiscoveryService"
-200-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
-201            android:directBootAware="true"
-201-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-202            android:exported="false" >
-202-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
-203            <meta-data
-203-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
-204                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-204-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
-205                android:value="com.google.firebase.components.ComponentRegistrar" />
-205-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
-206            <meta-data
-206-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
-207                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-207-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
-208                android:value="com.google.firebase.components.ComponentRegistrar" />
-208-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
-209            <meta-data
-209-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-210                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-210-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-211                android:value="com.google.firebase.components.ComponentRegistrar" />
-211-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-212            <meta-data
-212-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
-213                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-213-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
-214                android:value="com.google.firebase.components.ComponentRegistrar" />
-214-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
-215            <meta-data
-215-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
-216                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-216-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
-217                android:value="com.google.firebase.components.ComponentRegistrar" />
-217-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
-218            <!--
-219                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-220                clients to use it as well, by defining this registrar in their own core/common library.
-221            -->
+29-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:16:9-33
+30    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+30-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:17:5-84
+30-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:17:22-82
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:18:1-73
+31-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:18:18-70
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:6:5-68
+32-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:6:22-65
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:4:5-67
+33-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:4:22-64
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:21:1-74
+34-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:21:18-72
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+38        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+40-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+41    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+45    <!-- for Samsung -->
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+48    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+49    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+50    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+51    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+52    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+53    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+55    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+56    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+57    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\587ac84577a1a4923b41557a27ee67d1\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+62
+63    <application
+63-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:25:5-106:19
+64        android:name="com.restar.MainApplication"
+64-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:26:7-38
+65        android:allowBackup="false"
+65-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:30:7-34
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\49fff7b36716914bb8aa86afcf9b8f2f\core-1.1.0\AndroidManifest.xml:24:18-86
+67        android:debuggable="true"
+68        android:icon="@mipmap/ic_launcher"
+68-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:29:7-41
+69        android:label="@string/app_name"
+69-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:28:7-39
+70        android:launchMode="singleTask"
+70-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:27:7-38
+71        android:supportsRtl="true"
+71-->[com.facebook.android:facebook-login:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\491ebe6e1f1600ae9ec804d7d2d6636d\facebook-login-7.1.0\AndroidManifest.xml:28:18-44
+72        android:theme="@style/AppTheme"
+72-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:32:7-38
+73        android:usesCleartextTraffic="true" >
+73-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:31:7-42
+74        <meta-data
+74-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:33:7-35:64
+75            android:name="com.google.android.geo.API_KEY"
+75-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:34:7-52
+76            android:value="AIzaSyDvaS7W8iRIZTGJ6v5yePMWF4B2sCEVWqg" />
+76-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:35:7-62
+77
+78        <activity
+78-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:36:7-45:18
+79            android:name="com.restar.MainActivity"
+79-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:37:9-37
+80            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+80-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:39:9-79
+81            android:label="@string/app_name"
+81-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:38:9-41
+82            android:windowSoftInputMode="adjustResize" >
+82-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:40:9-51
+83            <intent-filter>
+83-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:41:9-44:25
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:42:13-65
+84-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:42:21-62
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:13-73
+86-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:43:23-70
+87            </intent-filter>
+88        </activity>
+89        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+89-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:7-84
+89-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:46:17-81
+90
+91        <meta-data
+91-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:7-50:65
+92            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+92-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:49:19-97
+93            android:value="YOUR NOTIFICATION CHANNEL NAME" />
+93-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:50:17-63
+94        <meta-data
+94-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:9-52:76
+95            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+95-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:51:21-106
+96            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+96-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:52:21-74
+97        <meta-data
+97-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:54:9-55:62
+98            android:name="com.dieam.reactnativepushnotification.notification_color"
+98-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:54:21-92
+99            android:resource="@android:color/white" />
+99-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:55:21-60
+100        <meta-data
+100-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:56:9-57:52
+101            android:name="com.facebook.sdk.ApplicationId"
+101-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:56:20-65
+102            android:value="@string/facebook_app_id" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+102-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:57:11-50
+103        <receiver
+103-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:59:9-67:20
+104            android:name="com.google.android.gms.gcm.GcmReceiver"
+104-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:60:13-66
+105            android:exported="true"
+105-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:62:13-73
+107            <intent-filter>
+107-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:63:13-66:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:17-81
+108-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:25-78
+109
+110                <category android:name="com.restar" />
+111            </intent-filter>
+112        </receiver> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+113        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+113-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:1-102
+113-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:11-99
+114        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+114-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:70:9-74:20
+114-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:70:19-115
+115            <intent-filter>
+115-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:71:13-73:29
+116                <action android:name="android.intent.action.BOOT_COMPLETED" />
+116-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:17-79
+116-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:25-76
+117            </intent-filter>
+118        </receiver>
+119
+120        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" /> <!-- < Only if you're using GCM or localNotificationSchedule() > -->
+120-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:76:9-118
+120-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:76:18-116
+121        <service
+121-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:79:9-85:19
+122            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm"
+122-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:80:13-110
+123            android:exported="false" >
+123-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:81:13-37
+124            <intent-filter>
+124-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:82:13-84:29
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:17-81
+125-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:25-78
+126            </intent-filter>
+127        </service> <!-- </ Only if you're using GCM or localNotificationSchedule() > -->
+128        <!-- < Else > -->
+129        <service
+129-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:88:9-94:19
+130            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+130-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:89:13-107
+131            android:exported="false" >
+131-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:90:13-37
+132            <intent-filter>
+132-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:91:13-93:29
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:17-78
+133-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:25-75
+134            </intent-filter>
+135        </service>
+136        <service
+136-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:97:1-104
+137            android:name="com.kontakt.sdk.android.ble.service.ProximityService"
+137-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:97:10-77
+138            android:exported="false" />
+138-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:97:78-102
+139        <service
+139-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:99:1-101:11
+140            android:name="org.altbeacon.beacon.service.BeaconService"
+140-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:99:10-67
+141            tools="replace"
+141-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:99:68-83
+142            android:enabled="true"
+142-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:31:13-35
+143            android:exported="false"
+143-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:32:13-37
+144            android:isolatedProcess="false"
+144-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:33:13-44
+145            android:label="beacon" >
+145-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:34:13-35
+146            <meta-data
+146-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:100:1-72
+147                android:name="longScanForcingEnabled"
+147-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:100:12-49
+148                android:value="true" />
+148-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:100:50-70
+149        </service>
+150        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+150-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-111
+150-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-108
+151        <service
+151-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-23:19
+152            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+152-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-95
+153            android:exported="false" >
+153-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+154            <intent-filter>
+154-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:91:13-93:29
+155                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+155-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:17-78
+155-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:25-75
+156            </intent-filter>
+157        </service>
+158
+159        <meta-data
+159-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-27:36
+160            android:name="firebase_messaging_auto_init_enabled"
+160-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-64
+161            android:value="true" />
+161-->[:react-native-firebase_messaging] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-33
+162
+163        <service android:name="com.mackentoch.beaconsandroid.BeaconsAndroidTransitionService" />
+163-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-97
+163-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:18-94
+164
+165        <receiver android:name="com.mackentoch.beaconsandroid.BeaconsAndroidBootReceiver" >
+165-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:20
+165-->[:hkpuits_react-native-beacons-manager] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\@hkpuits\react-native-beacons-manager\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-90
+166            <intent-filter>
+166-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:71:13-73:29
+167                <action android:name="android.intent.action.BOOT_COMPLETED" />
+167-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:17-79
+167-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:25-76
+168            </intent-filter>
+169        </receiver>
+170
+171        <provider
+171-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+172            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+172-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+173            android:authorities="com.restar.fileprovider"
+173-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+174            android:exported="false"
+174-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+175            android:grantUriPermissions="true" >
+175-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+176            <meta-data
+176-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+177                android:name="android.support.FILE_PROVIDER_PATHS"
+177-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+178                android:resource="@xml/file_provider_paths" />
+178-->[:react-native-webview] C:\Users\drago\Desktop\trabajo\dondecomer\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+179        </provider>
+180
+181        <activity
+181-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:30:9-33:66
+182            android:name="com.facebook.FacebookActivity"
+182-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:31:13-57
+183            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+183-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:32:13-96
+184            android:theme="@style/com_facebook_activity_theme" />
+184-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:33:13-63
+185        <activity android:name="com.facebook.CustomTabMainActivity" />
+185-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:34:9-71
+185-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:34:19-68
+186        <activity
+186-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:35:9-49:20
+187            android:name="com.facebook.CustomTabActivity"
+187-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:36:13-58
+188            android:exported="true" >
+188-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:37:13-36
+189            <intent-filter>
+189-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
+190                <action android:name="android.intent.action.VIEW" />
+190-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:40:17-69
+190-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:40:25-66
+191
+192                <category android:name="android.intent.category.DEFAULT" />
+192-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:42:17-76
+192-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:42:27-73
+193                <category android:name="android.intent.category.BROWSABLE" />
+193-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:43:17-78
+193-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:43:27-75
+194
+195                <data
+195-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:45:17-47:50
+196                    android:host="cct.com.restar"
+196-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:46:21-56
+197                    android:scheme="fbconnect" />
+197-->[com.facebook.android:facebook-common:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\01eee9dffa4623b75b88e052542424b5\facebook-common-7.1.0\AndroidManifest.xml:47:21-47
+198            </intent-filter>
+199        </activity>
+200        <!--
+201             FirebaseMessagingService performs security checks at runtime,
+202             but set to not exported to explicitly avoid allowing another app to call it.
+203        -->
+204        <service
+204-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+205            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+205-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+206            android:directBootAware="true"
+206-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+207            android:exported="false" >
+207-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+208            <intent-filter android:priority="-500" >
+208-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:91:13-93:29
+209                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+209-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:17-78
+209-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:92:25-75
+210            </intent-filter>
+211        </service>
+212        <service
+212-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
+213            android:name="com.google.firebase.components.ComponentDiscoveryService"
+213-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+215            android:exported="false" >
+215-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
+216            <meta-data
+216-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+217                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+217-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8b4b5d508e8d796fd226aefa2e8f66a1\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+220                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+220-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\99e36bbc42476b2588410142610c1564\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
 222            <meta-data
-222-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-223                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-223-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+222-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+223                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+223-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
 224                android:value="com.google.firebase.components.ComponentRegistrar" />
-224-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-225        </service>
-226        <service
-226-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
-227            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-227-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
-228            android:exported="false" >
-228-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
-229            <meta-data
-229-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
-230                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-230-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
-231                android:value="cct" />
-231-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
-232        </service>
-233        <service
-233-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
-234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-234-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
-235            android:exported="false"
-235-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
-236            android:permission="android.permission.BIND_JOB_SERVICE" >
-236-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
-237        </service>
-238
-239        <receiver
-239-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
-240            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-240-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
-241            android:exported="false" />
-241-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
-242
-243        <meta-data
-243-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:11:9-13:43
-244            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-244-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:12:13-84
-245            android:value="GlideModule" />
-245-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:13:13-40
-246        <!--
-247         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-248         with the application context. This config is merged in with the host app's manifest,
-249         but there can only be one provider with the same authority activated at any given
-250         point; so if the end user has two or more different apps that use Facebook SDK, only the
-251         first one will be able to use the provider. To work around this problem, we use the
-252         following placeholder in the authority to identify each host application as if it was
-253         a completely different provider.
-254        -->
-255        <provider
-255-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:39:9-42:40
-256            android:name="com.facebook.internal.FacebookInitProvider"
-256-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:40:13-70
-257            android:authorities="com.restar.FacebookInitProvider"
-257-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:41:13-72
-258            android:exported="false" />
-258-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:42:13-37
-259
-260        <receiver
-260-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:44:9-50:20
-261            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-261-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:45:13-86
-262            android:exported="false" >
-262-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:46:13-37
-263            <intent-filter>
-263-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:47:13-49:29
-264                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-264-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:17-95
-264-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:25-92
-265            </intent-filter>
-266        </receiver> <!-- Needs to be explicitly declared on P+ -->
-267        <uses-library
-267-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
-268            android:name="org.apache.http.legacy"
-268-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
-269            android:required="false" />
-269-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
-270
-271        <receiver
-271-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
-272            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-272-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
-273            android:exported="true"
-273-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
-274            android:permission="com.google.android.c2dm.permission.SEND" >
-274-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
-275            <intent-filter>
-275-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:79:13-81:29
-276                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-276-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:17-81
-276-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:61:25-78
-277            </intent-filter>
-278        </receiver>
-279
-280        <provider
-280-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-281            android:name="com.google.firebase.provider.FirebaseInitProvider"
-281-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-282            android:authorities="com.restar.firebaseinitprovider"
-282-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-283            android:directBootAware="true"
-283-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-284            android:exported="false"
-284-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-285            android:initOrder="100" />
-285-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-286
-287        <receiver
-287-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-288            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-288-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-289            android:enabled="true"
-289-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-290            android:exported="false" >
-290-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+224-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\24b991e781ba823cb5e39c8079da37a9\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+226                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+226-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+229                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+229-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\9cd6416a7a273276423656d0601b7e10\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+231            <!--
+232                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+233                clients to use it as well, by defining this registrar in their own core/common library.
+234            -->
+235            <meta-data
+235-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+236                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+236-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+238        </service>
+239        <service
+239-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+240            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+240-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+241            android:exported="false" >
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+242            <meta-data
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+243                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+244                android:value="cct" />
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\d8d58b1ffc56f04626155683c5cd4e88\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+245        </service>
+246        <service
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+247-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+248            android:exported="false"
+248-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+249            android:permission="android.permission.BIND_JOB_SERVICE" >
+249-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+250        </service>
+251
+252        <receiver
+252-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+253            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+253-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+254            android:exported="false" />
+254-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\35b89221f4c4e37234a618781d157bc8\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+255
+256        <meta-data
+256-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:11:9-13:43
+257            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+257-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:12:13-84
+258            android:value="GlideModule" />
+258-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\1c0b5dc3398c9fdefc61090a3073127c\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:13:13-40
+259        <!--
+260         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+261         with the application context. This config is merged in with the host app's manifest,
+262         but there can only be one provider with the same authority activated at any given
+263         point; so if the end user has two or more different apps that use Facebook SDK, only the
+264         first one will be able to use the provider. To work around this problem, we use the
+265         following placeholder in the authority to identify each host application as if it was
+266         a completely different provider.
+267        -->
+268        <provider
+268-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:39:9-42:40
+269            android:name="com.facebook.internal.FacebookInitProvider"
+269-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:40:13-70
+270            android:authorities="com.restar.FacebookInitProvider"
+270-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:41:13-72
+271            android:exported="false" />
+271-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:42:13-37
+272
+273        <receiver
+273-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:44:9-50:20
+274            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+274-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:45:13-86
+275            android:exported="false" >
+275-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:46:13-37
+276            <intent-filter>
+276-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:47:13-49:29
+277                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+277-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:17-95
+277-->[com.facebook.android:facebook-core:7.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a7f4a3a685f6be7400223c90e64ca028\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:25-92
+278            </intent-filter>
+279        </receiver> <!-- Needs to be explicitly declared on P+ -->
+280        <uses-library
+280-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+281            android:name="org.apache.http.legacy"
+281-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+282            android:required="false" />
+282-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\a315cf0e71a9e0ab743c16c74458a5bc\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+283
+284        <receiver
+284-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+285            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+285-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+286            android:exported="true"
+286-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+287            android:permission="com.google.android.c2dm.permission.SEND" >
+287-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\15bb19e806983610b0a186bc41ea6b4e\firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+288            <intent-filter>
+288-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:82:13-84:29
+289                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+289-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:17-81
+289-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:64:25-78
+290            </intent-filter>
 291        </receiver>
-292        <receiver
-292-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-293            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-293-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
-294            android:enabled="true"
-294-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-295            android:exported="true"
-295-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-296            android:permission="android.permission.INSTALL_PACKAGES" >
-296-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-297            <intent-filter>
-297-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-298                <action android:name="com.android.vending.INSTALL_REFERRER" />
-298-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-298-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-299            </intent-filter>
-300        </receiver>
-301
-302        <service
-302-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-303            android:name="com.google.android.gms.measurement.AppMeasurementService"
-303-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-304            android:enabled="true"
-304-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-305            android:exported="false" />
-305-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-306        <service
-306-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-307            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-307-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-308            android:enabled="true"
-308-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-309            android:exported="false"
-309-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-310            android:permission="android.permission.BIND_JOB_SERVICE" />
-310-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-311
-312        <activity
-312-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-313            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-313-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-314            android:exported="false"
-314-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-315-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-316
-317        <meta-data
-317-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-318            android:name="com.google.android.gms.version"
-318-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-319            android:value="@integer/google_play_services_version" />
-319-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-320
-321        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
-321-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:9-27:20
-321-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:19-87
-322            <intent-filter>
-322-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:22:13-26:29
-323                <action android:name="android.intent.action.BOOT_COMPLETED" />
-323-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:17-79
-323-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:69:25-76
-324                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-324-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:17-87
-324-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:25-84
-325                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-325-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:17-90
-325-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:25-87
-326            </intent-filter>
-327        </receiver>
-328
-329        <service
-329-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:29:9-34:38
-330            android:name="org.altbeacon.beacon.service.BeaconService"
-330-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:30:13-70
-331            android:enabled="true"
-331-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:31:13-35
-332            android:exported="false"
-332-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:32:13-37
-333            android:isolatedProcess="false"
-333-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:33:13-44
-334            android:label="beacon" />
-334-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:34:13-35
-335        <service
-335-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:35:9-38:40
-336            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
-336-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:36:13-70
-337            android:enabled="true"
-337-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:37:13-35
-338            android:exported="false" />
-338-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:38:13-37
-339        <service
-339-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:39:9-48:19
-340            android:name="org.altbeacon.beacon.service.ScanJob"
-340-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:40:13-64
-341            android:permission="android.permission.BIND_JOB_SERVICE" >
-341-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:41:13-69
-342            <meta-data
-342-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:42:13-44:45
-343                android:name="immediateScanJobId"
-343-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:43:17-50
-344                android:value="208352939" />
-344-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:44:17-42
-345            <meta-data
-345-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:45:13-47:45
-346                android:name="periodicScanJobId"
-346-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:46:17-49
-347                android:value="208352940" />
-347-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:47:17-42
-348        </service>
-349        <service
-349-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:49:9-55:19
-350            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
-350-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:50:13-68
-351            android:permission="android.permission.BIND_JOB_SERVICE" >
-351-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:51:13-69
+292
+293        <provider
+293-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+294            android:name="com.google.firebase.provider.FirebaseInitProvider"
+294-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+295            android:authorities="com.restar.firebaseinitprovider"
+295-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+296            android:directBootAware="true"
+296-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+297            android:exported="false"
+297-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+298            android:initOrder="100" />
+298-->[com.google.firebase:firebase-common:19.5.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\5f69ac15e46497e02e1a5ff22f740334\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+299
+300        <receiver
+300-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+301            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+301-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+302            android:enabled="true"
+302-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+303            android:exported="false" >
+303-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+304        </receiver>
+305        <receiver
+305-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+306            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+306-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+307            android:enabled="true"
+307-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+308            android:exported="true"
+308-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+309            android:permission="android.permission.INSTALL_PACKAGES" >
+309-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+310            <intent-filter>
+310-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+311                <action android:name="com.android.vending.INSTALL_REFERRER" />
+311-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+311-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+312            </intent-filter>
+313        </receiver>
+314
+315        <service
+315-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+316            android:name="com.google.android.gms.measurement.AppMeasurementService"
+316-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+317            android:enabled="true"
+317-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+318            android:exported="false" />
+318-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+319        <service
+319-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+320            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+320-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+321            android:enabled="true"
+321-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+322            android:exported="false"
+322-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" />
+323-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\6f089a505c0b16b865ec01276776f0d8\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+324
+325        <activity
+325-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+326            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+326-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+327            android:exported="false"
+327-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+328            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+328-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\e608625d38f9ccbd1cef5f4f19c94943\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+329
+330        <meta-data
+330-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+331            android:name="com.google.android.gms.version"
+331-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+332            android:value="@integer/google_play_services_version" />
+332-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\2caf83be92d5a730427de769f5cadeb5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+333
+334        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+334-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:9-27:20
+334-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:21:19-87
+335            <intent-filter>
+335-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:22:13-26:29
+336                <action android:name="android.intent.action.BOOT_COMPLETED" />
+336-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:17-79
+336-->C:\Users\drago\Desktop\trabajo\dondecomer\android\app\src\main\AndroidManifest.xml:72:25-76
+337                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+337-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:17-87
+337-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:24:25-84
+338                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+338-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:17-90
+338-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:25:25-87
+339            </intent-filter>
+340        </receiver>
+341
+342        <service
+342-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:35:9-38:40
+343            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+343-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:36:13-70
+344            android:enabled="true"
+344-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:37:13-35
+345            android:exported="false" />
+345-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:38:13-37
+346        <service
+346-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:39:9-48:19
+347            android:name="org.altbeacon.beacon.service.ScanJob"
+347-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:40:13-64
+348            android:permission="android.permission.BIND_JOB_SERVICE" >
+348-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:41:13-69
+349            <meta-data
+349-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:42:13-44:45
+350                android:name="immediateScanJobId"
+350-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:43:17-50
+351                android:value="208352939" />
+351-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:44:17-42
 352            <meta-data
-352-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:52:13-54:46
-353                android:name="jobId"
-353-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:53:17-37
-354                android:value="1799803768" />
-354-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:54:17-43
+352-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:45:13-47:45
+353                android:name="periodicScanJobId"
+353-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:46:17-49
+354                android:value="208352940" />
+354-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:47:17-42
 355        </service>
-356    </application>
-357
-358</manifest>
+356        <service
+356-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:49:9-55:19
+357            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+357-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:50:13-68
+358            android:permission="android.permission.BIND_JOB_SERVICE" >
+358-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:51:13-69
+359            <meta-data
+359-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:52:13-54:46
+360                android:name="jobId"
+360-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:53:17-37
+361                android:value="1799803768" />
+361-->[org.altbeacon:android-beacon-library:2.16.2] C:\Users\drago\.gradle\caches\transforms-2\files-2.1\8cf3cdc6a458e6901b04ac2f0c48b107\jetified-android-beacon-library-2.16.2\AndroidManifest.xml:54:17-43
+362        </service>
+363    </application>
+364
+365</manifest>

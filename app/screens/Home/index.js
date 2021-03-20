@@ -103,9 +103,7 @@ class Home extends Component {
     ) {
       try {
         this.locationSubscription();
-      } catch (error) {
-        console.log(error);
-      }
+      } catch (error) {}
 
       if (this.state.permission) {
         this.callRestaurants(nextAppState);
@@ -149,9 +147,16 @@ class Home extends Component {
         }
         //recoger la posicion con permisos
         RNLocation.requestPermission({
-          ios: "whenInUse",
+          ios: "always",
           android: {
-            detail: "coarse",
+            detail: "fine",
+          },
+          rationale: {
+            title: "Se necesita el acceso a tu localización",
+            message:
+              "Para el correcto de la detección de señales, necesitamos tu ubicación",
+            buttonPositive: "OK",
+            buttonNegative: "Cancelar",
           },
         }).then((granted) => {
           if (granted) {

@@ -1,9 +1,11 @@
 import Beacons from "@hkpuits/react-native-beacons-manager";
 
 const region = {
-  identifier: "Estimotes",
-  uuid: "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+  identifier: "beaconDondeComer",
+  uuid: "d77657c4-52a7-426f-b9d0-d71e10798c8a",
 };
+
+// const region = "REGION1";
 
 module.exports = async (event) => {
   if (Platform.OS === "ios") {
@@ -60,7 +62,7 @@ module.exports = async (event) => {
     (data) => {
       // good place for background tasks
       console.log("region did enter");
-      // do something
+      console.log("HOOOOOOOLA");
     }
   );
 
