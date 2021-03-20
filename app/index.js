@@ -287,7 +287,7 @@ export default class index extends Component {
   };
 
   async componentDidMount() {
-    this.checkPermissions();
+    // this.checkPermissions();
     getBluetoothState();
     anonymousLog();
     await this.recabarCampanas();
