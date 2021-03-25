@@ -157,13 +157,14 @@ PushNotification.createChannel(
   (created) => console.log(`createChannel returned '${created}'`) // (optional) callback returns whether the channel was created, false means it already existed.
 );
 
-const anonymousLog = () => {
+const anonymousLog = async () => {
   firebase.auth
     .signInAnonymously()
     .then(() => {
-      // Signed in..
+      console.log("LOGUEADO");
     })
     .catch((error) => {
+      console.log("ERROR DE LOGUEO");
       var errorCode = error.code;
       var errorMessage = error.message;
       // ...
@@ -271,6 +272,7 @@ export default class index extends Component {
   };
 
   recabarCampanas = async () => {
+    await anonymousLog();
     firebase.db
       .collection("campanas")
       .get()
@@ -281,15 +283,20 @@ export default class index extends Component {
             ...doc.data(),
           };
         });
+        console.log(campanas);
 
         this.setState({ campanas: campanas });
+      })
+      .catch((error) => {
+        console.log("HUBO UN ERROR");
+        console.log(error);
       });
   };
 
   async componentDidMount() {
     // this.checkPermissions();
     getBluetoothState();
-    anonymousLog();
+
     await this.recabarCampanas();
     await detectarBeacons();
 

@@ -549,19 +549,31 @@ class PlaceDetail extends Component {
                     <Text caption2 grayColor>
                       Horario
                     </Text>
-                    <Text footnote semibold style={{ marginTop: 5 }}>
-                      {openHours.length > 0
-                        ? openHours[numeroDia].day +
-                          " : " +
-                          openHours[numeroDia].open_hour +
-                          " - " +
-                          openHours[numeroDia].close_hour
+
+                    {openHours.length > 0 ? (
+                      <>
+                        {openHours[numeroDia].open_hour !== "0" ? (
+                          <Text>
+                            {openHours[numeroDia].day +
+                              " : " +
+                              openHours[numeroDia].open_hour +
+                              " - " +
+                              openHours[numeroDia].close_hour}
+                          </Text>
+                        ) : (
+                          <Text>
+                            {" "}
+                            {openHours[numeroDia].day + " : " + "Cerrado"}
+                          </Text>
+                        )}
+                      </>
+                    ) : null}
+
+                    {/* <Text footnote semibold style={{ marginTop: 5 }}>
+                       
                         : ""}
 
-                      {/* {workHours.length > 0
-                        ? workHours[0].start_time + "-" + workHours[0].end_time
-                        : ""} */}
-                    </Text>
+                    </Text> */}
                   </View>
                   <Icon
                     name={collapseHour ? "angle-down" : "angle-up"}
@@ -585,13 +597,20 @@ class PlaceDetail extends Component {
                       {/* <Text body2 grayColor>
                         {item.start_time}
                       </Text> */}
-                      <Text body2 accentColor semibold>
-                        {item.day +
-                          " : " +
-                          item.open_hour +
-                          " - " +
-                          item.close_hour}
-                      </Text>
+
+                      {item.open_hour === "0" && item.close_hour === "0" ? (
+                        <Text body2 accentColor semibold>
+                          {item.day + " : " + "Cerrado"}
+                        </Text>
+                      ) : (
+                        <Text body2 accentColor semibold>
+                          {item.day +
+                            " : " +
+                            item.open_hour +
+                            " - " +
+                            item.close_hour}
+                        </Text>
+                      )}
                     </View>
                   );
                 })}
